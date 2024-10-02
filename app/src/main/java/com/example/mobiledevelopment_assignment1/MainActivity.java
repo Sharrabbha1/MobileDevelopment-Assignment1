@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity
         String resultFormatted = formattedDecimalForm.format(emi);
         result.setText("the calculated monthly EMI is: " + resultFormatted);  // will print the statement in the terminal along with the value
     }
-    private boolean isNumeric(String str)
+    private boolean isNumeric(String str)   //checking if the string value is numeric if so convert to double
     {
         try
         {
